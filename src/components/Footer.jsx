@@ -1,0 +1,64 @@
+import React from "react";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+
+const Footer = () => {
+    return (
+        <div>
+            <footer className="bg-orange-100 dark:bg-[#1f1d2b] text-black dark:text-white pt-16 pb-10 px-6 lg:px-20 transition-colors duration-300">
+                <div className="grid md:grid-cols-4 gap-10">
+                    {/* logo & description */}
+                    <div>
+                        <h2 className="text-2xl font-bold text-orange-500 mb-4">BiteHub</h2>
+                        <p className="text-gray-700 dark:gray-300">Your BiteHub app for delicious and fast food delivery. Taste the joyat your doorstep.</p>
+
+                        <div className="flex gap-4 mt-4 text-orange-500">
+                            <FaFacebookF className="hover:text-orange-600 cursor-pointer" />
+                            <FaInstagram className="hover:text-orange-600 cursor-pointer" />
+                            <FaTwitter className="hover:text-orange-600 cursor-pointer" />
+                            <FaLinkedin className="hover:text-orange-600 cursor-pointer" />
+                        </div>
+                    </div>
+
+                    {/* company links */}
+                    <div >
+                        <h3 className="text-lg font-semibold mb-4">Company</h3>
+
+                        <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                            <li><a href="/" className="hover:text-orange-400 transition">Abuot Us</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">Careers</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">Blog</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">Press</a></li>
+                        </ul>
+                    </div>
+                    {/* support links */}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-4">Support</h3>
+                        <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                            <li><a href="/" className="hover:text-orange-400 transition">Help Center</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">Safety Center</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">FAQs</a></li>
+                            <li><a href="/" className="hover:text-orange-400 transition">Content Support</a></li>
+                        </ul>
+                    </div>
+                    {/* content info */}
+                    <div>
+                        <h3 className="text-lg font-semibold mb-4">Contact</h3>
+                        <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                            <li className="hover:text-orange-400 transition">Email: support@BiteHub.com</li>
+                            <li className="hover:text-orange-400 transition">Phone: +91 98765 43210</li>
+                            <li className="hover:text-orange-400 transition">Location: San Francisco, USA</li>
+                        </ul>
+                    </div>
+
+                </div>
+                {/* bottom line */}
+                <div className="text-center text-sm text-gray-500 border-t mt-4 pt-4">
+                    @copyright developed by champion programmers | All rights reserved
+                </div>
+            </footer>
+        </div>
+    )
+}
+
+export default Footer;
