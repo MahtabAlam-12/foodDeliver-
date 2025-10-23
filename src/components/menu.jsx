@@ -1,13 +1,5 @@
 import React from "react";
 import MenuCard from "../layouts/MenuCard";
-import menu1 from "../assets/img/menu1.png";
-import menu2 from "../assets/img/menu2.png";
-import menu3 from "../assets/img/menu3.png";
-import menu4 from "../assets/img/menu4.png";
-import menu5 from "../assets/img/menu5.png";
-import menu6 from "../assets/img/menu6.png";
-import menu7 from "../assets/img/menu7.png";
-import menu8 from "../assets/img/menu8.png";
 
 const dishes = [
   {
@@ -15,56 +7,56 @@ const dishes = [
     name: "Chicken Burger",
     price: "$5.99",
     tag: "Hot",
-    image: "menu1",
+    image: "src/assets/img/menu1.png",
   },
   {
     id: 2,
     name: "Peri Peri Pizza",
     price: "$8.49",
     tag: "New",
-    image: "menu12",
+    image: "src/assets/img/menu2.png",
   },
   {
     id: 3,
     name: "Sushi Deluxe",
     price: "$6.25",
     tag: "",
-    image: "menu3",
+    image: "src/assets/img/menu3.png",
   },
   {
     id: 4,
     name: "Paneer Poppers",
     price: "$7.80",
     tag: "Hot",
-    image: "menu4",
+    image: "src/assets/img/menu4.png",
   },
   {
     id: 5,
     name: "Club Sandwich",
     price: "$3.20",
     tag: "",
-    image: "menu5",
+    image: "src/assets/img/menu5.png",
   },
   {
     id: 6,
     name: "Mocktail Mojito",
     price: "$4.75",
     tag: "New",
-    image: "menu6",
+    image: "src/assets/img/menu6.png",
   },
   {
     id: 7,
     name: "Nacho Fiesta",
     price: "$7.80",
     tag: "Hot",
-    image: "menu7",
+    image: "src/assets/img/menu7.png",
   },
   {
     id: 8,
     name: "Biryani Bowl",
     price: "$3.20",
     tag: "",
-    image: "menu8",
+    image: "src/assets/img/menu8.png",
   },
 ];
 
